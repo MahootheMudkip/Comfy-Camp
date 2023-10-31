@@ -4,6 +4,7 @@ using UnityEngine;
 using Unity.Netcode;
 using System;
 using JetBrains.Annotations;
+using System.Runtime.CompilerServices;
 
 public class PlayerMovement : NetworkBehaviour
 {
@@ -38,6 +39,8 @@ public class PlayerMovement : NetworkBehaviour
         if (!IsOwner) return; 
         moveInput = Input.GetAxisRaw("Horizontal");
         anim.SetFloat("Speed", Mathf.Abs(moveInput));
+        if (rb.velocity.y < 0) { anim.SetBool("Jumping", false); anim.SetBool("Falling", true); }
+        if (isGrounded()) { anim.SetBool("Falling", false); }
 
         Jump();
     }
@@ -64,6 +67,7 @@ public class PlayerMovement : NetworkBehaviour
         }
         if (Input.GetButtonDown("Jump") && coyoteTimeCounter > 0f)
         {
+            anim.SetBool("Jumping", true);
             willJump = true;
             return;
         }

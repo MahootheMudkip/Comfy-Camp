@@ -126,8 +126,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 51
-      y: 92
+      x: 32
+      y: 4
       width: 17
       height: 29
     spriteID: 7c1b2ed3baa24ec44aa8f7188ed04cb9
@@ -138,7 +138,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 51, y: 92}
+    uvTransform: {x: 32, y: 4}
   - name: Camper Sprite_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -146,8 +146,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 97
-      y: 78
+      x: 57
+      y: 4
       width: 17
       height: 28
     spriteID: f64dcd4026df6c24c8929ab77c9955e6
@@ -158,7 +158,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 97, y: 78}
+    uvTransform: {x: 57, y: 4}
   - name: Camper Sprite_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -166,8 +166,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 97
-      y: 114
+      x: 57
+      y: 40
       width: 17
       height: 28
     spriteID: 412e2e508f66ebd4986e29a17fb8f631
@@ -178,7 +178,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 97, y: 114}
+    uvTransform: {x: 57, y: 40}
   - name: Camper Sprite_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -186,8 +186,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 51
-      y: 129
+      x: 32
+      y: 41
       width: 17
       height: 29
     spriteID: e211ac08e3160bc499409218f7f21035
@@ -198,7 +198,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 51, y: 129}
+    uvTransform: {x: 32, y: 41}
   - name: Camper Sprite_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -206,8 +206,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 51
-      y: 166
+      x: 32
+      y: 78
       width: 17
       height: 29
     spriteID: 98bc5c65a3dc0cc4b90a0fe8ec666978
@@ -218,7 +218,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 51, y: 166}
+    uvTransform: {x: 32, y: 78}
   - name: Camper Sprite_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -226,8 +226,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 51
-      y: 203
+      x: 32
+      y: 115
       width: 17
       height: 29
     spriteID: 7dbacb78d87c60c44b0418a6deea1d27
@@ -238,7 +238,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 51, y: 203}
+    uvTransform: {x: 32, y: 115}
   - name: Camper Sprite_Frame_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -246,8 +246,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 97
-      y: 150
+      x: 57
+      y: 76
       width: 17
       height: 28
     spriteID: ac9761a3f05338342b76b309bc05a263
@@ -258,7 +258,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 97, y: 150}
+    uvTransform: {x: 57, y: 76}
   - name: Camper Sprite_Frame_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -266,8 +266,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 97
-      y: 4
+      x: 32
+      y: 152
       width: 17
       height: 29
     spriteID: b75e5e283e20ae44cb3b06dcb85a4736
@@ -278,7 +278,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 97, y: 4}
+    uvTransform: {x: 32, y: 152}
   - name: Camper Sprite_Frame_8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -287,7 +287,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 215
+      y: 155
       width: 17
       height: 30
     spriteID: f41926b826c4b9a4788ee6b8a7738d82
@@ -298,7 +298,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 215}
+    uvTransform: {x: 4, y: 155}
   - name: Camper Sprite_Frame_9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -306,8 +306,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 97
-      y: 186
+      x: 57
+      y: 112
       width: 17
       height: 28
     spriteID: f6b5d726b3e5424428e3e22c33f44bcd
@@ -318,7 +318,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 97, y: 186}
+    uvTransform: {x: 57, y: 112}
   - name: Camper Sprite_Frame_10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -326,8 +326,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 97
-      y: 41
+      x: 32
+      y: 189
       width: 17
       height: 29
     spriteID: ec0c57a97ba3691479ddcba45b148f8b
@@ -338,7 +338,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 97, y: 41}
+    uvTransform: {x: 32, y: 189}
   - name: Camper Sprite_Frame_11
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -346,8 +346,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 51
-      y: 54
+      x: 4
+      y: 193
       width: 17
       height: 30
     spriteID: af7cb899a0957804f90721a5a3d3e436
@@ -358,7 +358,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 51, y: 54}
+    uvTransform: {x: 4, y: 193}
   - name: Camper Sprite_Frame_12
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -366,10 +366,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
-      width: 39
-      height: 45
+      x: 32
+      y: 226
+      width: 17
+      height: 26
     spriteID: b78a1210e7e9f954b8693c9c81f2f584
     spriteBone: []
     spriteOutline: []
@@ -378,7 +378,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 32, y: 226}
   - name: Camper Sprite_Frame_13
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -387,9 +387,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 162
-      width: 36
-      height: 45
+      y: 40
+      width: 17
+      height: 32
     spriteID: 1727da2f8afc70347909b66f3ac7c94d
     spriteBone: []
     spriteOutline: []
@@ -398,7 +398,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 162}
+    uvTransform: {x: 4, y: 40}
   - name: Camper Sprite_Frame_14
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -406,10 +406,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 51
-      y: 4
-      width: 38
-      height: 42
+      x: 4
+      y: 80
+      width: 17
+      height: 32
     spriteID: e818a2c75078e1f498d8a2ce6aae46ce
     spriteBone: []
     spriteOutline: []
@@ -418,7 +418,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 51, y: 4}
+    uvTransform: {x: 4, y: 80}
   - name: Camper Sprite_Frame_15
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -426,10 +426,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 110
-      width: 39
-      height: 44
+      x: 57
+      y: 148
+      width: 17
+      height: 28
     spriteID: e8cc876007d5f1344930395eb46708f0
     spriteBone: []
     spriteOutline: []
@@ -438,7 +438,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 110}
+    uvTransform: {x: 57, y: 148}
   - name: Camper Sprite_Frame_16
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -446,11 +446,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 57
-      width: 39
-      height: 45
-    spriteID: 4179d8b7453f1fd438a79e1c714a18be
+      x: 57
+      y: 184
+      width: 17
+      height: 28
+    spriteID: c0f6ec65492702c42aa22c2e699b3edf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -458,7 +458,47 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 57}
+    uvTransform: {x: 57, y: 184}
+  - name: Camper Sprite_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 20
+      height: 28
+    spriteID: a05e1898f0ee3074fac86a7d735d12df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Camper Sprite_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 7
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 120
+      width: 19
+      height: 27
+    spriteID: 6748e7cb2625ccb4680987f4b3be6931
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 120}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -567,43 +607,59 @@ ScriptedImporter:
     - name: Camper Sprite_Frame_12
       frameIndex: 12
       cellRect:
-        x: 1
-        y: 0
-        width: 39
-        height: 45
+        x: 23
+        y: 16
+        width: 17
+        height: 26
       spriteId: b78a1210e7e9f954b8693c9c81f2f584
     - name: Camper Sprite_Frame_13
       frameIndex: 13
       cellRect:
-        x: 4
-        y: 0
-        width: 36
-        height: 45
+        x: 23
+        y: 16
+        width: 17
+        height: 32
       spriteId: 1727da2f8afc70347909b66f3ac7c94d
     - name: Camper Sprite_Frame_14
       frameIndex: 14
       cellRect:
-        x: 2
-        y: 3
-        width: 38
-        height: 42
+        x: 23
+        y: 16
+        width: 17
+        height: 32
       spriteId: e818a2c75078e1f498d8a2ce6aae46ce
     - name: Camper Sprite_Frame_15
       frameIndex: 15
       cellRect:
-        x: 1
-        y: 1
-        width: 39
-        height: 44
+        x: 23
+        y: 20
+        width: 17
+        height: 28
       spriteId: e8cc876007d5f1344930395eb46708f0
     - name: Camper Sprite_Frame_16
       frameIndex: 16
       cellRect:
-        x: 1
-        y: 0
-        width: 39
-        height: 45
-      spriteId: 4179d8b7453f1fd438a79e1c714a18be
+        x: 23
+        y: 20
+        width: 17
+        height: 28
+      spriteId: c0f6ec65492702c42aa22c2e699b3edf
+    - name: Camper Sprite_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 22
+        y: 17
+        width: 20
+        height: 28
+      spriteId: a05e1898f0ee3074fac86a7d735d12df
+    - name: Camper Sprite_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 22
+        y: 16
+        width: 19
+        height: 27
+      spriteId: 6748e7cb2625ccb4680987f4b3be6931
     linkedCells: []
     parentIndex: -1
   platformSettings:
