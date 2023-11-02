@@ -12,16 +12,21 @@ public class PlayerMovement : NetworkBehaviour
     private SpriteRenderer sr;
     public Animator anim;
 
-    public float moveSpeed;
+    public float baseMoveSpeed;
+    public float crouchMoveSpeedMultiplier;
     private float moveInput;
 
     public float jumpForce;
     public Transform feetPos;
     public Vector2 jumpBoxDetectionSize;
+    public Vector2 crouchBoxDetectionSize;
     public LayerMask whatIsGround;
 
     private bool willJump;
     private bool willFall;
+    private bool willCrouch;
+    public Transform crouchHeadPos;
+    public Collider2D crouchCollider;
 
     private float coyoteTime = 0.05f;
     private float coyoteTimeCounter;
@@ -43,17 +48,31 @@ public class PlayerMovement : NetworkBehaviour
         if (isGrounded()) { anim.SetBool("Falling", false); }
 
         Jump();
+        Crouch();
     }
 
     void FixedUpdate()
     {
+        float moveSpeed = baseMoveSpeed;
+
+        // if crouching, lower move speed and disable top collider
+        if (willCrouch)
+        {
+            moveSpeed *= crouchMoveSpeedMultiplier;
+            crouchCollider.enabled = false;
+        } else
+        {
+            crouchCollider.enabled = true;    
+        }
+
         // move left/right
         rb.velocity = new Vector2(moveInput * moveSpeed * Time.deltaTime, rb.velocity.y);
         FaceMoveDirection();
 
         // jump/fall 
         if (willJump) { rb.velocity = Vector2.up * jumpForce * Time.deltaTime; willJump = false;}
-        if (willFall) { rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.6f); willFall = false;}
+        if (willFall) { rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.6f); willFall = false;} 
+
     }
 
     void Jump()
@@ -80,9 +99,32 @@ public class PlayerMovement : NetworkBehaviour
         }
     }
 
+    void Crouch()
+    {   
+        if (!isGrounded()) {
+            return;
+        } 
+
+        if (Input.GetButtonDown("Crouch")) {
+            willCrouch = true;
+        } else if (Input.GetButtonUp("Crouch")){
+            willCrouch = false;
+        }
+
+        // stay crouched if under a block
+        if (!willCrouch && isUnderBlock())
+        {
+            willCrouch = true;
+        }
+    }
     private bool isGrounded()
     {
         return Physics2D.OverlapBox(feetPos.position, jumpBoxDetectionSize, 0, whatIsGround);
+    }
+
+    private bool isUnderBlock()
+    {
+        return Physics2D.OverlapBox(crouchHeadPos.position, crouchBoxDetectionSize, 0, whatIsGround);
     }
 
     // Flips player sprite when travelling in left/right direction
